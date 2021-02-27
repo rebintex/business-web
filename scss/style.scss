@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+
+.header {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 570px;
+    color: #fff;
+   
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 85px;
+    }
+    &__logo {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'SourceSansPro';
+        &::after {
+            content: '.';
+            width: 5px;
+            height: 5px;
+            color: #fb414e;
+            
+        }
+    }   
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        &__item{
+        margin-left: 40px;
+        }
+        &__link {
+            text-decoration: none;
+            color: #fff;
+            font-size: 11px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            padding-bottom: 1px;
+            &:hover {
+                border-bottom: 2px solid #fb414e;
+            }
+        }
+    }
+    &__bottom {
+        width: 880px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    &__title {
+        font-size: 47px;
+        font-family: 'SourceSansPro';
+        font-weight: bold;
+        line-height: 50px;
+
+    }
+    &__text {
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-weight: 300;
+        margin: 40px auto 0;
+        width: 565px;
+        line-height: 23px;
+    }
+    &__buttons {
+        width: 400px;
+        margin: 35px auto 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__btn {
+        border: 2px solid #fb414e;
+        padding: 7px 38px;
+        margin: -8px 15px;
+        font-size: 12px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #fb414e;
+            
+        }
+
+    }
+
+}
+
+.services {
+    background-color: #fff;
+    position: relative;
+    .boxes{
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: -60px;
+        &__item {
+            width: 300px;
+            height: 300px;
+            background-color: #202b30;
+            margin: 7px;
+            padding: 55px 45px;
+            color: #fff;
+            font-family: 'Roboto';
+            &:hover {
+                background-color: #fb414e;
+            }
+            
+
+        }
+        &__img {
+            margin-bottom: 25px;
+        }
+        &__title {
+            margin-bottom: 16px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        &__line {
+            width: 40px;
+            height: 2px;
+            color: white;
+            margin-bottom: 16px;
+        }
+        &__text {
+            font-size: 11px;
+            line-height: 17px;
+            text-align: justify;
+            font-weight: lighter;
+            
+        }
+    }
+
+}
+
+.best-services {
+    position: relative;
+    &__box {
+        position: absolute;
+        top: 345px;
+        text-align: center;
+    }
+    &__heading {
+        margin-bottom: 70px;
+    }
+    &__min-title {
+        color: #fb414e;
+        font-size: 13px;
+        font-family: 'Roboto';
+        font-weight: bold;
+        margin-bottom: 17px;
+
+    }
+    &__title {
+        color: #1f1f1f;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'SourceSansPro';
+        margin-bottom: 45px;
+
+        &--red {
+            color: #fb414e;
+        }
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-weight: lighter;
+        font-size: 13px;
+        color: #8b8b8b;
+        max-width: 630px;
+        margin: 0 auto;
+    }
+    &__section {
+        max-width: 980px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+}

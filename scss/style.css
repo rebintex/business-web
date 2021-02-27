@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 570px;
+  color: #fff;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 85px;
+}
+
+.header__logo {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'SourceSansPro';
+}
+
+.header__logo::after {
+  content: '.';
+  width: 5px;
+  height: 5px;
+  color: #fb414e;
+}
+
+.header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+.header .menu__item {
+  margin-left: 40px;
+}
+
+.header .menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 11px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-bottom: 1px;
+}
+
+.header .menu__link:hover {
+  border-bottom: 2px solid #fb414e;
+}
+
+.header__bottom {
+  width: 880px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header__title {
+  font-size: 47px;
+  font-family: 'SourceSansPro';
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.header__text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  margin: 40px auto 0;
+  width: 565px;
+  line-height: 23px;
+}
+
+.header__buttons {
+  width: 400px;
+  margin: 35px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__btn {
+  border: 2px solid #fb414e;
+  padding: 7px 38px;
+  margin: -8px 15px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header__btn:hover {
+  background-color: #fb414e;
+}
+
+.services {
+  background-color: #fff;
+  position: relative;
+}
+
+.services .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  top: -60px;
+}
+
+.services .boxes__item {
+  width: 300px;
+  height: 300px;
+  background-color: #202b30;
+  margin: 7px;
+  padding: 55px 45px;
+  color: #fff;
+  font-family: 'Roboto';
+}
+
+.services .boxes__item:hover {
+  background-color: #fb414e;
+}
+
+.services .boxes__img {
+  margin-bottom: 25px;
+}
+
+.services .boxes__title {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.services .boxes__line {
+  width: 40px;
+  height: 2px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.services .boxes__text {
+  font-size: 11px;
+  line-height: 17px;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+.best-services {
+  position: relative;
+}
+
+.best-services__box {
+  position: absolute;
+  top: 345px;
+  text-align: center;
+}
+
+.best-services__heading {
+  margin-bottom: 70px;
+}
+
+.best-services__min-title {
+  color: #fb414e;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+
+.best-services__title {
+  color: #1f1f1f;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'SourceSansPro';
+  margin-bottom: 45px;
+}
+
+.best-services__title--red {
+  color: #fb414e;
+}
+
+.best-services__text {
+  font-family: 'Roboto';
+  font-weight: lighter;
+  font-size: 13px;
+  color: #8b8b8b;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.best-services__section {
+  max-width: 980px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+/*# sourceMappingURL=style.css.map */
