@@ -623,7 +623,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 70px 0 70px;
+  padding: 20px 0 15px;
 }
 
 .contact__box {
@@ -666,15 +666,17 @@
 }
 
 .contact__form .contact__elements .contact__company-name {
+  min-width: 48%;
   padding-left: 18px;
   margin-bottom: 15px;
   font-size: 14px;
   line-height: 36px;
   font-family: 'Roboto';
-  margin-right: 20.4px;
+  margin-right: 16.4px;
 }
 
 .contact__form .contact__elements .contact__email {
+  min-width: 48%;
   padding-left: 18px;
   margin-bottom: 15px;
   font-size: 14px;
@@ -696,15 +698,14 @@
   width: 100%;
   height: 215px;
   padding: 9.5px 18px 9.5px;
-  margin-bottom: 27px;
   font-size: 14px;
   line-height: 36px;
   font-family: 'Roboto';
   color: #646565;
 }
 
-.contact__form .contact__elements .contact__submit {
-  width: 200%;
+.contact .contact__submit {
+  width: 100%;
   height: 40px;
   padding: 9.5px 18px 9.5px;
   margin-bottom: 15px;
@@ -712,12 +713,11 @@
   line-height: 13px;
   font-family: 'Roboto';
   color: #646565;
-  margin-left: -100%;
   background-color: transparent;
   border-width: 1px;
 }
 
-.contact__form .contact__elements .contact__submit:hover {
+.contact .contact__submit:hover {
   background-color: #fb414e;
   color: #fff;
   border-color: transparent;
